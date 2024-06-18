@@ -24,7 +24,7 @@ function Contents() {
       <h1>About Me</h1>
       <h2>UMass Cybersecurity Club</h2>
       {/* TODO */}
-      <p>I play CTFs with <MotionLink href="https://ctftime.org/team/78233">SavedByTheShell</MotionLink>, and am currently exploring web, osint, and pwn (don't forget misc as well!)</p>
+      <p>I play CTFs with <MotionLink href="https://ctftime.org/team/78233">SavedByTheShell</MotionLink>, and am currently exploring web, osint, and pwn ({"don't"} forget misc as well!)</p>
 
       <h2>UMass TASC</h2>
       {/* TODO */}

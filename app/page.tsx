@@ -18,7 +18,7 @@ function Contents() {
   return (
     <>
       <h1>Hello!</h1>
-      <p> I'm Alex, an undergraduate CS student at UMass Amherst. I have many interests, including but not limited to: </p>
+      <p>{"I'm"} Alex, an undergraduate CS student at UMass Amherst. I have many interests, including but not limited to: </p>
       <ul>
         <li>Cybersecurity</li>
         <li></li>
