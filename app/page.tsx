@@ -1,21 +1,39 @@
-'use client'
-
 import Image from "next/image";
-import Nav from "./nav";
+import Header from "./header";
 import { AnimatePresence, motion } from "framer-motion";
+import { PageWrapper } from "@/components/PageWrapper";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main >
-      <Contents />
-    </main>
+    <PageWrapper>
+      <main className="flex min-h-screen flex-col pt-24">
+        <Contents />
+      </main>
+    </PageWrapper>
   );
 }
 
 function Contents() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
-      <motion.div animate={{ x: 100 }} exit={{opacity: 100}}>test</motion.div>
-    </div>
+    <>
+      <h1>Hello!</h1>
+      <p>{"I'm"} Alex, an undergraduate CS student at UMass Amherst. I have many interests, including but not limited to: </p>
+      <ul>
+        <li>Cybersecurity</li>
+        <li>Robotics</li>
+        <li>Tetris</li>
+        <li>Beat saber</li>
+      </ul>
+      <Image
+      src="/20240521_192316.jpg"
+      alt=""
+      width={1000}
+      height={100}
+      priority
+       />
+
+
+    </>
   )
 }

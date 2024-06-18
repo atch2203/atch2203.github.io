@@ -1,17 +1,15 @@
-'use client'
-
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Nav from "./nav";
-import { AnimatePresence } from "framer-motion";
-import { Router, Routes, useLocation } from "react-router-dom";
+import Header from "./header";
+import Head from "./head";
+import { Metadata } from "next";
+import Footer from "./footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// export const metadata: Metadata = {
-//   title: "Alex's Website"
-// };
+export const metadata: Metadata = {
+  title: "atch2203's website"
+};
 
 export default function RootLayout({
   children,
@@ -20,13 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head />
       <body className={inter.className}>
-        <Nav />
-        <AnimatePresence>
+        <Header />
         {children}
-        </AnimatePresence>
+        <Footer />
       </body>
     </html>
-
   );
 }
