@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MotionLink } from "./MotionLink";
+import { UnderLink } from "./MotionLink";
 
 export const MotionLogo = ({ children, className, href }: { children: React.ReactNode, className?: string, href: string }) =>
 (
@@ -7,9 +7,9 @@ export const MotionLogo = ({ children, className, href }: { children: React.Reac
     <motion.div whileHover={{ scale: 1.2 }} whileTap={{scale:0.9}}
       style={{ width: 50, height: 50 }}
     >
-      <MotionLink href={href}>
+      <UnderLink href={href}>
         {children}
-      </MotionLink>
+      </UnderLink>
     </motion.div>
   </div>
 )

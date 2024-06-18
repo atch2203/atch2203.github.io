@@ -13,7 +13,7 @@ export const PageWrapper = ({
     initial={{opacity:0,y:20}}
     animate={{opacity:1,y:0}}
     exit={{opacity:0,y:20}}
-    className={"overflow-hidden mx-12 min-h-screenHeightWithoutHeader " + className}
+    className={"overflow-hidden md:mx-24 max-md:mx-8 pt-28 min-h-screen " + className}
   >
     {children}
   </motion.div>
