@@ -21,7 +21,7 @@ function Contents() {
       <p>{"I'm"} Alex, an undergraduate CS student at UMass Amherst. I have many interests, including but not limited to: </p>
       <ul>
         <li>Cybersecurity</li>
-        <li></li>
+        <li>Robotics</li>
         <li>Tetris</li>
         <li>Beat saber</li>
       </ul>
