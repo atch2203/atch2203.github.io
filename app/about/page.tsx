@@ -120,11 +120,6 @@ const sections = [
             />
           </MotionLogo>
         </div>
-        {/* <p>
-          My best scores (imo):<br />
-          <UnderLink href="https://replay.beatleader.xyz/?scoreId=14800412">vandalized ai </UnderLink><br />
-          <UnderLink href="https://replay.beatleader.xyz/?scoreId=14734317">booths of fighters</UnderLink>
-        </p> */}
       </>
     ),
     images: (
