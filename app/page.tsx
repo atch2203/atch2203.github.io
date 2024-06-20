@@ -20,12 +20,12 @@ function Contents() {
       <div className="flex md:flex-row max-md:flex-col my-auto">
         <div className="md:mr-12 my-auto">
           <h1>Hello!</h1>
-          <p className="">{"I'm"} Alex, an undergraduate CS student at UMass Amherst.  <br />
+          <p className="">{"I'm"} atch2203, an undergraduate CS student at UMass Amherst. <br />
             I am currently exploring and learning many things, ranging from cybersecurity to diabolo tricks and everything in between. </p>
         </div>
         <div className="md:w-[100%] relative my-auto" >
           <Image
-            src="/me/20240521_192316.jpg"
+            src="/me/grandcanyon.jpg"
             alt=""
             width={1000}
             height={1000}
