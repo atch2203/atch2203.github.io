@@ -68,9 +68,9 @@ function NavBar() {
       {links.map((obj, i) => <Link key={i} href={obj.link} className="relative"><li key={i} className={liClass + (obj.link === path && (onpage))}>
         {obj.link === path && (
             <motion.span
-              initial={{opacity:0,y:20}}
-              animate={{opacity:1,y:0}}
-              exit={{opacity:0,y:20}}
+              initial={{scaleX:0}}
+              animate={{scaleX:1}}
+              exit={{scaleX:0}}
               className="absolute top-full block h-[2px] w-full bg-black max-md:hidden" />
         )}
 
