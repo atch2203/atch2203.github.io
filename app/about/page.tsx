@@ -97,8 +97,8 @@ const sections = [
     title: "Beat Saber",
     contents: (
       <>
-        <p>I enjoy playing Beat Saber often, and am currently top 800 global/300 US.<br />
-          I also play challenge maps, and am currently CS level 9.<br />
+        <p>I enjoy playing Beat Saber often, and am currently top 900 global/400 US.<br />
+          I also play challenge maps, and am currently CS level 12.<br />
           You can find my scoresaber and beatleader profile below.<br /></p>
         <div className="flex md:justify-end">
           <MotionLogo className="px-2 inline" href="https://scoresaber.com/u/76561198246352688">
