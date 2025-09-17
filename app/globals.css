@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind apply;
+
+:root{
+  --foreground-rgb: 0, 0, 0;
+  --background: #ffffff;
+}
+.box {
+  width: 200px;
+  height: 80px;
+  border-radius: 50px;
+  background: #555555;
+  cursor: pointer;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: var(--background);
+}
+
+h1{
+  @apply text-6xl py-4
+}
+
+h2{
+  @apply text-4xl py-4
+}
+
+p{
+  @apply text-xl leading-loose
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
