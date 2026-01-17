@@ -20,6 +20,10 @@ const links = [
     link: '/about'
   },
   {
+    text: 'Split The Bill',
+    link: "/split-the-bill"
+  },
+  {
     text: 'Blog',
     link: '/blog'
   }
